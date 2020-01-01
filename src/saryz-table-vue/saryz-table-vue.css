@@ -1,0 +1,39 @@
+/*覆盖elementUI的一下样式，针对组件做了一些调整和优化*/
+/*需要与组件同时引用*/
+.table_page {
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ccslh {
+    overflow: hidden; /*超出部分隐藏*/
+    text-overflow: ellipsis; /* 超出部分显示省略号 */
+    white-space: nowrap; /*规定段落中的文本不进行换行 */
+}
+
+.el-table .caret-wrapper {
+    width: 12px !important;
+}
+
+.el-table .sort-caret {
+    left: 1px;
+}
+
+.saryz_table_index {
+    border-right: 1px solid #EBEEF5;
+    color: #999;
+}
+
+.saryz_table_index .cell {
+    padding: 0;
+    text-align: center;
+}
+
+.mini-table {
+    font-size: 12px;
+}
+
+.mini-table td, .mini-table th {
+    padding: 5px 0 !important;
+}

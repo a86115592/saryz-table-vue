@@ -1,0 +1,42 @@
+{
+  "name": "saryz-table-vue",
+  "version": "1.0.4",
+  "private": false,
+  "description": "A quick list creation component based on elementUI that automatically renders to the desired look with minimal dom code, in a configuration similar to Jquery easyUI",
+  "main": "lib/saryz-table-vue.umd.js",
+  "keywords": "table vue element ui saryz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a86115592/saryz-table-vue"
+  },
+  "author": "saryz",
+  "license": "MIT",
+  "homepage": "https://saryz-ui.github.io/",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name saryz-table-vue --dest lib src/saryz-table-vue/index.js",
+    "publishtonpm": "npm publish"
+  },
+  "dependencies": {
+    "core-js": "^3.4.3",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2",
+    "element-ui": "^2.9.1",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
